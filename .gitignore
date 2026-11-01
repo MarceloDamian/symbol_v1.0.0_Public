@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+checkpoints/
+checkpoints_train.log
+data/*.jsonl
+.DS_Store
+.env
+.pytest_cache/
+data/*.tmp
+data/*.gz

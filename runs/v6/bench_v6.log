@@ -1,0 +1,8 @@
+
+=== checkpoints/apl_trace_v5.pt
+
+=== checkpoints/apl_trace_v6.pt
+
+checkpoint                                canonical       hard    control      prims
+checkpoints/apl_trace_v5.pt                  100.0%      47.7%       6.7%       0.0%
+checkpoints/apl_trace_v6.pt                   95.7%      84.1%       0.0%       0.0%

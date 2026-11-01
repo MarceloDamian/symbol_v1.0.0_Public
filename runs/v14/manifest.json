@@ -1,0 +1,33 @@
+{
+  "round": "14",
+  "written": "2026-10-24T16:11:27",
+  "repo_head": "58d6c2977ba117e9cf00bc304270930cb4fe2d62",
+  "gen": {
+    "rows": 210000,
+    "seed": 14,
+    "commit": null,
+    "note": "made before the repo existed: the generator code for this round was not saved; retrain from the saved data (bash scripts/restore.sh 14)"
+  },
+  "train": {
+    "steps": 30000,
+    "command": ".venv/bin/python -u -m symbol.training.train --target trace --steps 30000 --eval-every 5000 --eval-size 500 --d-model 384 --layers 8 --heads 8 --accum 2 --data data/apl_trace_v14.jsonl --out checkpoints/apl_trace_v14.pt --resume"
+  },
+  "data": {
+    "path": "data/apl_trace_v14.jsonl",
+    "rows": 210000,
+    "sha256": "9d78fb969e2f02628a66e44d778a9f096564488eb6c90cc73df19aed33fab2ea"
+  },
+  "checkpoint": {
+    "path": "checkpoints/apl_trace_v14.pt",
+    "sha256": "52cb03350c1eca5aec8b1c523f5987d45c83fd1e4bce89c4b275ad53b126720c",
+    "release": "round-14"
+  },
+  "val_exact": 92.2,
+  "bench": {
+    "canonical": 95.7,
+    "hard": 86.4,
+    "control": 100.0,
+    "prims": 75.0,
+    "bits": 75.0
+  }
+}

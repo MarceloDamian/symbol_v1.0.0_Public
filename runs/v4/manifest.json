@@ -1,0 +1,24 @@
+{
+  "round": "4",
+  "written": "2026-10-24T16:09:19",
+  "repo_head": "fd1df32393887b88ffbadcf98434f2273e0d8202",
+  "gen": {
+    "rows": 150000,
+    "seed": null,
+    "commit": null,
+    "note": "made before the repo existed: the generator code for this round was not saved; retrain from the saved data (bash scripts/restore.sh 4)"
+  },
+  "train": null,
+  "data": {
+    "path": "data/apl_trace_v4.jsonl",
+    "rows": 150000,
+    "sha256": "f38ac524be0be731445e87669d22736ed12c3dda82a155bf10ceab48ccbc4579"
+  },
+  "checkpoint": {
+    "path": "checkpoints/apl_trace_v4.pt",
+    "sha256": "62cdabc9a4cd1d6333caa7a3f022271249374fe03373ede70c8042a04503f9a9",
+    "release": "round-4"
+  },
+  "val_exact": 90.5,
+  "bench": null
+}

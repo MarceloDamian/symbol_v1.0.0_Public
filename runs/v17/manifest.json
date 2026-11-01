@@ -1,0 +1,36 @@
+{
+  "round": "17",
+  "written": "2026-10-25T21:26:25",
+  "repo_head": "858ce32126bc6dbf696d8fc6700854100a94f7b1",
+  "gen": {
+    "rows": 210000,
+    "seed": 17,
+    "commit": "858ce32126bc6dbf696d8fc6700854100a94f7b1",
+    "uncommitted_patch": false,
+    "python": "Python 3.8.1",
+    "started": "2026-10-25T16:22:30",
+    "command": "python3 -m symbol.dataset.generator --n 210000 --seed 17 --out data/apl_trace_v17.jsonl"
+  },
+  "train": {
+    "steps": 45000,
+    "command": ".venv/bin/python -u -m symbol.training.train --target trace --steps 45000 --eval-every 5000 --eval-size 500 --d-model 384 --layers 8 --heads 8 --accum 2 --data data/apl_trace_v17.jsonl --out checkpoints/apl_trace_v17.pt --resume"
+  },
+  "data": {
+    "path": "data/apl_trace_v17.jsonl",
+    "rows": 210000,
+    "sha256": "864310bd60b286a8079dd8d956bc6e7798b76987d54215832d6ed0cdf8366019"
+  },
+  "checkpoint": {
+    "path": "checkpoints/apl_trace_v17.pt",
+    "sha256": "b002248434395504ac71da84c75026a03cd57967e534ad7e9eb497be02eeff8f",
+    "release": "round-17"
+  },
+  "val_exact": 91.7,
+  "bench": {
+    "canonical": 100.0,
+    "hard": 95.5,
+    "control": 100.0,
+    "prims": 87.5,
+    "bits": 93.8
+  }
+}

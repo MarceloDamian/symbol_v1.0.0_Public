@@ -1,0 +1,16 @@
+wrote 210000 examples to data/apl_trace_v15.jsonl (train 199327, val 10673)
+acceptance: 55.1% of 381025 attempts
+  ok                   210000
+  trace_ok             205036
+  apl_error            108475
+  duplicate            58232
+  trace_too_long       4471
+  result_too_big       2592
+  result_too_long      938
+  trace_failed         493
+  roundtrip_mismatch   472
+  program_too_long     250
+  unformattable        64
+  timeout              1
+  python_error         1
+peak RSS 197 MB

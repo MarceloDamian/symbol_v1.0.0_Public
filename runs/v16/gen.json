@@ -1,0 +1,3 @@
+{"rows": 210000, "seed": 16, "commit": "f2408f5d60b44adea2ebd74665434e2c2b891bce", "uncommitted_patch": false,
+ "python": "Python 3.8.1", "started": "2026-10-25T06:15:49",
+ "command": "python3 -m symbol.dataset.generator --n 210000 --seed 16 --out data/apl_trace_v16.jsonl"}

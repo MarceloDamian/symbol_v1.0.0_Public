@@ -1,0 +1,4 @@
+{
+ "steps": 30000,
+ "command": ".venv/bin/python -u -m symbol.training.train --target trace --steps 30000 --eval-every 5000 --eval-size 500 --d-model 384 --layers 8 --heads 8 --accum 2 --data data/apl_trace_v8.jsonl --out checkpoints/apl_trace_v8.pt --resume"
+}

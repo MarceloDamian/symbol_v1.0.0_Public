@@ -1,0 +1,327 @@
+device mps | params 4.86M | train 138788 | val 7424 | max_len 292
+step   100 | loss 3.2676 | lr 2.02e-04 | 23s
+step   200 | loss 2.2198 | lr 4.02e-04 | 44s
+step   300 | loss 1.8308 | lr 6.00e-04 | 66s
+step   400 | loss 1.5608 | lr 6.00e-04 | 86s
+step   500 | loss 1.4440 | lr 6.00e-04 | 104s
+step   600 | loss 1.3532 | lr 6.00e-04 | 123s
+step   700 | loss 1.2585 | lr 6.00e-04 | 144s
+step   800 | loss 1.2093 | lr 5.99e-04 | 164s
+step   900 | loss 1.1682 | lr 5.99e-04 | 182s
+step  1000 | loss 1.1344 | lr 5.99e-04 | 203s
+step  1100 | loss 1.0306 | lr 5.99e-04 | 221s
+step  1200 | loss 1.0351 | lr 5.98e-04 | 241s
+step  1300 | loss 0.9581 | lr 5.98e-04 | 261s
+step  1400 | loss 0.9120 | lr 5.97e-04 | 282s
+step  1500 | loss 0.8610 | lr 5.97e-04 | 299s
+step  1600 | loss 0.8478 | lr 5.96e-04 | 318s
+step  1700 | loss 0.8361 | lr 5.96e-04 | 339s
+step  1800 | loss 0.7696 | lr 5.95e-04 | 357s
+step  1900 | loss 0.7736 | lr 5.94e-04 | 375s
+step  2000 | loss 0.7352 | lr 5.94e-04 | 395s
+step  2100 | loss 0.6608 | lr 5.93e-04 | 414s
+step  2200 | loss 0.6665 | lr 5.92e-04 | 433s
+step  2300 | loss 0.6727 | lr 5.91e-04 | 452s
+step  2400 | loss 0.6421 | lr 5.90e-04 | 474s
+step  2500 | loss 0.6133 | lr 5.89e-04 | 495s
+  eval @2500: exact 32.8% | semantic 34.2% | valid APL 96.2% | canonical 13.0%
+step  2600 | loss 0.5585 | lr 5.89e-04 | 687s
+step  2700 | loss 0.5535 | lr 5.88e-04 | 706s
+step  2800 | loss 0.5362 | lr 5.86e-04 | 725s
+step  2900 | loss 0.5334 | lr 5.85e-04 | 745s
+step  3000 | loss 0.5122 | lr 5.84e-04 | 763s
+step  3100 | loss 0.4922 | lr 5.83e-04 | 783s
+step  3200 | loss 0.4705 | lr 5.82e-04 | 804s
+step  3300 | loss 0.4660 | lr 5.81e-04 | 823s
+step  3400 | loss 0.4411 | lr 5.79e-04 | 842s
+step  3500 | loss 0.4544 | lr 5.78e-04 | 863s
+step  3600 | loss 0.4034 | lr 5.77e-04 | 882s
+step  3700 | loss 0.3760 | lr 5.75e-04 | 900s
+step  3800 | loss 0.3859 | lr 5.74e-04 | 920s
+step  3900 | loss 0.3608 | lr 5.72e-04 | 938s
+step  4000 | loss 0.3917 | lr 5.71e-04 | 956s
+step  4100 | loss 0.3581 | lr 5.69e-04 | 975s
+step  4200 | loss 0.3483 | lr 5.67e-04 | 994s
+step  4300 | loss 0.3332 | lr 5.66e-04 | 1013s
+step  4400 | loss 0.3475 | lr 5.64e-04 | 1033s
+step  4500 | loss 0.3286 | lr 5.62e-04 | 1052s
+step  4600 | loss 0.3273 | lr 5.61e-04 | 1070s
+step  4700 | loss 0.3067 | lr 5.59e-04 | 1090s
+step  4800 | loss 0.2971 | lr 5.57e-04 | 1111s
+step  4900 | loss 0.2856 | lr 5.55e-04 | 1131s
+step  5000 | loss 0.2785 | lr 5.53e-04 | 1150s
+  eval @5000: exact 48.0% | semantic 48.2% | valid APL 96.2% | canonical 32.6%
+step  5100 | loss 0.2652 | lr 5.51e-04 | 1302s
+step  5200 | loss 0.2657 | lr 5.49e-04 | 1321s
+step  5300 | loss 0.2558 | lr 5.47e-04 | 1340s
+step  5400 | loss 0.2554 | lr 5.45e-04 | 1359s
+step  5500 | loss 0.2566 | lr 5.43e-04 | 1376s
+step  5600 | loss 0.2580 | lr 5.41e-04 | 1396s
+step  5700 | loss 0.2360 | lr 5.39e-04 | 1414s
+step  5800 | loss 0.2325 | lr 5.37e-04 | 1433s
+step  5900 | loss 0.2229 | lr 5.34e-04 | 1454s
+step  6000 | loss 0.2207 | lr 5.32e-04 | 1474s
+step  6100 | loss 0.2309 | lr 5.30e-04 | 1492s
+step  6200 | loss 0.2123 | lr 5.27e-04 | 1512s
+step  6300 | loss 0.2018 | lr 5.25e-04 | 1530s
+step  6400 | loss 0.2103 | lr 5.23e-04 | 1549s
+step  6500 | loss 0.1991 | lr 5.20e-04 | 1566s
+step  6600 | loss 0.1963 | lr 5.18e-04 | 1585s
+step  6700 | loss 0.1926 | lr 5.15e-04 | 1606s
+step  6800 | loss 0.1870 | lr 5.13e-04 | 1628s
+step  6900 | loss 0.1885 | lr 5.10e-04 | 1648s
+step  7000 | loss 0.1792 | lr 5.08e-04 | 1667s
+step  7100 | loss 0.1698 | lr 5.05e-04 | 1685s
+step  7200 | loss 0.1746 | lr 5.03e-04 | 1706s
+step  7300 | loss 0.1692 | lr 5.00e-04 | 1724s
+step  7400 | loss 0.1693 | lr 4.97e-04 | 1745s
+step  7500 | loss 0.1599 | lr 4.94e-04 | 1764s
+  eval @7500: exact 61.8% | semantic 62.8% | valid APL 96.8% | canonical 43.5%
+step  7600 | loss 0.1580 | lr 4.92e-04 | 1902s
+step  7700 | loss 0.1619 | lr 4.89e-04 | 1924s
+step  7800 | loss 0.1539 | lr 4.86e-04 | 1941s
+step  7900 | loss 0.1481 | lr 4.83e-04 | 1959s
+step  8000 | loss 0.1530 | lr 4.81e-04 | 1976s
+step  8100 | loss 0.1604 | lr 4.78e-04 | 1998s
+step  8200 | loss 0.1469 | lr 4.75e-04 | 2017s
+step  8300 | loss 0.1426 | lr 4.72e-04 | 2035s
+step  8400 | loss 0.1472 | lr 4.69e-04 | 2057s
+step  8500 | loss 0.1368 | lr 4.66e-04 | 2078s
+step  8600 | loss 0.1330 | lr 4.63e-04 | 2095s
+step  8700 | loss 0.1310 | lr 4.60e-04 | 2113s
+step  8800 | loss 0.1299 | lr 4.57e-04 | 2134s
+step  8900 | loss 0.1225 | lr 4.54e-04 | 2151s
+step  9000 | loss 0.1238 | lr 4.51e-04 | 2169s
+step  9100 | loss 0.1301 | lr 4.48e-04 | 2187s
+step  9200 | loss 0.1298 | lr 4.45e-04 | 2206s
+step  9300 | loss 0.1235 | lr 4.42e-04 | 2227s
+step  9400 | loss 0.1217 | lr 4.38e-04 | 2244s
+step  9500 | loss 0.1119 | lr 4.35e-04 | 2264s
+step  9600 | loss 0.1084 | lr 4.32e-04 | 2282s
+step  9700 | loss 0.1053 | lr 4.29e-04 | 2300s
+step  9800 | loss 0.1164 | lr 4.26e-04 | 2321s
+step  9900 | loss 0.1110 | lr 4.23e-04 | 2340s
+step 10000 | loss 0.1063 | lr 4.19e-04 | 2359s
+  eval @10000: exact 72.2% | semantic 72.8% | valid APL 99.8% | canonical 71.7%
+step 10100 | loss 0.1083 | lr 4.16e-04 | 2472s
+step 10200 | loss 0.1086 | lr 4.13e-04 | 2494s
+step 10300 | loss 0.1082 | lr 4.10e-04 | 2514s
+step 10400 | loss 0.1103 | lr 4.06e-04 | 2532s
+step 10500 | loss 0.1076 | lr 4.03e-04 | 2551s
+step 10600 | loss 0.1049 | lr 4.00e-04 | 2569s
+step 10700 | loss 0.0926 | lr 3.96e-04 | 2587s
+step 10800 | loss 0.0925 | lr 3.93e-04 | 2606s
+step 10900 | loss 0.0944 | lr 3.90e-04 | 2625s
+step 11000 | loss 0.0928 | lr 3.86e-04 | 2644s
+step 11100 | loss 0.0976 | lr 3.83e-04 | 2663s
+step 11200 | loss 0.0873 | lr 3.80e-04 | 2682s
+step 11300 | loss 0.0868 | lr 3.76e-04 | 2702s
+step 11400 | loss 0.0928 | lr 3.73e-04 | 2722s
+step 11500 | loss 0.0904 | lr 3.69e-04 | 2741s
+step 11600 | loss 0.0837 | lr 3.66e-04 | 2759s
+step 11700 | loss 0.0817 | lr 3.63e-04 | 2775s
+step 11800 | loss 0.0841 | lr 3.59e-04 | 2794s
+step 11900 | loss 0.0872 | lr 3.56e-04 | 2813s
+step 12000 | loss 0.0795 | lr 3.52e-04 | 2833s
+step 12100 | loss 0.0744 | lr 3.49e-04 | 2854s
+step 12200 | loss 0.0754 | lr 3.45e-04 | 2872s
+step 12300 | loss 0.0812 | lr 3.42e-04 | 2890s
+step 12400 | loss 0.0715 | lr 3.39e-04 | 2908s
+step 12500 | loss 0.0732 | lr 3.35e-04 | 2926s
+  eval @12500: exact 80.8% | semantic 81.0% | valid APL 100.0% | canonical 73.9%
+step 12600 | loss 0.0743 | lr 3.32e-04 | 3047s
+step 12700 | loss 0.0735 | lr 3.28e-04 | 3068s
+step 12800 | loss 0.0760 | lr 3.25e-04 | 3086s
+step 12900 | loss 0.0756 | lr 3.21e-04 | 3105s
+step 13000 | loss 0.0666 | lr 3.18e-04 | 3123s
+step 13100 | loss 0.0678 | lr 3.15e-04 | 3141s
+step 13200 | loss 0.0669 | lr 3.11e-04 | 3161s
+step 13300 | loss 0.0647 | lr 3.08e-04 | 3180s
+step 13400 | loss 0.0679 | lr 3.04e-04 | 3198s
+step 13500 | loss 0.0670 | lr 3.01e-04 | 3217s
+step 13600 | loss 0.0705 | lr 2.97e-04 | 3237s
+step 13700 | loss 0.0624 | lr 2.94e-04 | 3255s
+step 13800 | loss 0.0635 | lr 2.91e-04 | 3276s
+step 13900 | loss 0.0627 | lr 2.87e-04 | 3295s
+step 14000 | loss 0.0594 | lr 2.84e-04 | 3315s
+step 14100 | loss 0.0614 | lr 2.80e-04 | 3334s
+step 14200 | loss 0.0614 | lr 2.77e-04 | 3355s
+step 14300 | loss 0.0622 | lr 2.74e-04 | 3373s
+step 14400 | loss 0.0583 | lr 2.70e-04 | 3393s
+step 14500 | loss 0.0545 | lr 2.67e-04 | 3412s
+step 14600 | loss 0.0561 | lr 2.64e-04 | 3432s
+step 14700 | loss 0.0524 | lr 2.60e-04 | 3451s
+step 14800 | loss 0.0563 | lr 2.57e-04 | 3470s
+step 14900 | loss 0.0547 | lr 2.54e-04 | 3488s
+step 15000 | loss 0.0559 | lr 2.50e-04 | 3507s
+  eval @15000: exact 81.8% | semantic 82.2% | valid APL 99.8% | canonical 87.0%
+step 15100 | loss 0.0523 | lr 2.47e-04 | 3612s
+step 15200 | loss 0.0515 | lr 2.44e-04 | 3632s
+step 15300 | loss 0.0525 | lr 2.41e-04 | 3649s
+step 15400 | loss 0.0525 | lr 2.37e-04 | 3669s
+step 15500 | loss 0.0506 | lr 2.34e-04 | 3688s
+step 15600 | loss 0.0484 | lr 2.31e-04 | 3707s
+step 15700 | loss 0.0461 | lr 2.28e-04 | 3726s
+step 15800 | loss 0.0439 | lr 2.25e-04 | 3745s
+step 15900 | loss 0.0468 | lr 2.22e-04 | 3764s
+step 16000 | loss 0.0438 | lr 2.18e-04 | 3783s
+step 16100 | loss 0.0493 | lr 2.15e-04 | 3803s
+step 16200 | loss 0.0479 | lr 2.12e-04 | 3822s
+step 16300 | loss 0.0447 | lr 2.09e-04 | 3841s
+step 16400 | loss 0.0462 | lr 2.06e-04 | 3861s
+step 16500 | loss 0.0485 | lr 2.03e-04 | 3880s
+step 16600 | loss 0.0450 | lr 2.00e-04 | 3898s
+step 16700 | loss 0.0409 | lr 1.97e-04 | 3916s
+step 16800 | loss 0.0422 | lr 1.94e-04 | 3932s
+step 16900 | loss 0.0378 | lr 1.91e-04 | 3951s
+step 17000 | loss 0.0390 | lr 1.88e-04 | 3971s
+step 17100 | loss 0.0383 | lr 1.85e-04 | 3990s
+step 17200 | loss 0.0374 | lr 1.82e-04 | 4007s
+step 17300 | loss 0.0443 | lr 1.79e-04 | 4028s
+step 17400 | loss 0.0412 | lr 1.77e-04 | 4048s
+step 17500 | loss 0.0391 | lr 1.74e-04 | 4069s
+  eval @17500: exact 86.0% | semantic 86.2% | valid APL 99.8% | canonical 91.3%
+step 17600 | loss 0.0380 | lr 1.71e-04 | 4178s
+step 17700 | loss 0.0371 | lr 1.68e-04 | 4201s
+step 17800 | loss 0.0393 | lr 1.66e-04 | 4219s
+step 17900 | loss 0.0336 | lr 1.63e-04 | 4237s
+step 18000 | loss 0.0358 | lr 1.60e-04 | 4256s
+step 18100 | loss 0.0337 | lr 1.57e-04 | 4274s
+step 18200 | loss 0.0377 | lr 1.55e-04 | 4294s
+step 18300 | loss 0.0354 | lr 1.52e-04 | 4312s
+step 18400 | loss 0.0343 | lr 1.50e-04 | 4331s
+step 18500 | loss 0.0347 | lr 1.47e-04 | 4350s
+step 18600 | loss 0.0337 | lr 1.45e-04 | 4372s
+step 18700 | loss 0.0347 | lr 1.42e-04 | 4392s
+step 18800 | loss 0.0326 | lr 1.40e-04 | 4411s
+step 18900 | loss 0.0330 | lr 1.37e-04 | 4429s
+step 19000 | loss 0.0286 | lr 1.35e-04 | 4447s
+step 19100 | loss 0.0322 | lr 1.33e-04 | 4466s
+step 19200 | loss 0.0284 | lr 1.30e-04 | 4485s
+step 19300 | loss 0.0284 | lr 1.28e-04 | 4502s
+step 19400 | loss 0.0333 | lr 1.26e-04 | 4523s
+step 19500 | loss 0.0300 | lr 1.23e-04 | 4542s
+step 19600 | loss 0.0322 | lr 1.21e-04 | 4563s
+step 19700 | loss 0.0272 | lr 1.19e-04 | 4581s
+step 19800 | loss 0.0289 | lr 1.17e-04 | 4599s
+step 19900 | loss 0.0291 | lr 1.15e-04 | 4617s
+step 20000 | loss 0.0284 | lr 1.13e-04 | 4635s
+  eval @20000: exact 86.2% | semantic 86.4% | valid APL 99.6% | canonical 95.7%
+step 20100 | loss 0.0258 | lr 1.11e-04 | 4736s
+step 20200 | loss 0.0272 | lr 1.09e-04 | 4757s
+step 20300 | loss 0.0259 | lr 1.07e-04 | 4775s
+step 20400 | loss 0.0250 | lr 1.05e-04 | 4795s
+step 20500 | loss 0.0241 | lr 1.03e-04 | 4813s
+step 20600 | loss 0.0288 | lr 1.01e-04 | 4835s
+step 20700 | loss 0.0238 | lr 9.94e-05 | 4852s
+step 20800 | loss 0.0269 | lr 9.76e-05 | 4871s
+step 20900 | loss 0.0259 | lr 9.59e-05 | 4890s
+step 21000 | loss 0.0238 | lr 9.42e-05 | 4908s
+step 21100 | loss 0.0254 | lr 9.25e-05 | 4926s
+step 21200 | loss 0.0243 | lr 9.09e-05 | 4945s
+step 21300 | loss 0.0275 | lr 8.94e-05 | 4967s
+step 21400 | loss 0.0256 | lr 8.78e-05 | 4986s
+step 21500 | loss 0.0232 | lr 8.63e-05 | 5005s
+step 21600 | loss 0.0252 | lr 8.49e-05 | 5024s
+step 21700 | loss 0.0229 | lr 8.34e-05 | 5041s
+step 21800 | loss 0.0216 | lr 8.21e-05 | 5059s
+step 21900 | loss 0.0222 | lr 8.07e-05 | 5079s
+step 22000 | loss 0.0238 | lr 7.94e-05 | 5098s
+step 22100 | loss 0.0237 | lr 7.82e-05 | 5117s
+step 22200 | loss 0.0223 | lr 7.69e-05 | 5135s
+step 22300 | loss 0.0238 | lr 7.58e-05 | 5154s
+step 22400 | loss 0.0231 | lr 7.46e-05 | 5174s
+step 22500 | loss 0.0224 | lr 7.35e-05 | 5193s
+  eval @22500: exact 89.4% | semantic 89.4% | valid APL 99.6% | canonical 97.8%
+step 22600 | loss 0.0219 | lr 7.25e-05 | 5295s
+step 22700 | loss 0.0196 | lr 7.15e-05 | 5315s
+step 22800 | loss 0.0203 | lr 7.05e-05 | 5337s
+step 22900 | loss 0.0214 | lr 6.96e-05 | 5358s
+step 23000 | loss 0.0252 | lr 6.87e-05 | 5379s
+step 23100 | loss 0.0231 | lr 6.78e-05 | 5399s
+step 23200 | loss 0.0200 | lr 6.70e-05 | 5418s
+step 23300 | loss 0.0189 | lr 6.63e-05 | 5435s
+step 23400 | loss 0.0194 | lr 6.56e-05 | 5454s
+step 23500 | loss 0.0197 | lr 6.49e-05 | 5471s
+step 23600 | loss 0.0214 | lr 6.43e-05 | 5490s
+step 23700 | loss 0.0226 | lr 6.37e-05 | 5511s
+step 23800 | loss 0.0214 | lr 6.31e-05 | 5532s
+step 23900 | loss 0.0186 | lr 6.26e-05 | 5550s
+step 24000 | loss 0.0220 | lr 6.22e-05 | 5570s
+step 24100 | loss 0.0191 | lr 6.18e-05 | 5589s
+step 24200 | loss 0.0207 | lr 6.14e-05 | 5610s
+step 24300 | loss 0.0176 | lr 6.11e-05 | 5627s
+step 24400 | loss 0.0193 | lr 6.08e-05 | 5647s
+step 24500 | loss 0.0182 | lr 6.05e-05 | 5666s
+step 24600 | loss 0.0201 | lr 6.03e-05 | 5684s
+step 24700 | loss 0.0161 | lr 6.02e-05 | 5700s
+step 24800 | loss 0.0200 | lr 6.01e-05 | 5720s
+step 24900 | loss 0.0178 | lr 6.00e-05 | 5738s
+step 25000 | loss 0.0191 | lr 6.00e-05 | 5758s
+  eval @25000: exact 90.0% | semantic 90.2% | valid APL 99.6% | canonical 93.5%
+
+final on all 2000 val examples: exact 90.5% | semantic 90.8% | valid APL 99.8%
+  ✓ 7>2∨7 6                      want 1 1                    got 7>1 2⋄1 1
+  ✓ 15⌈-⍨¯4                      want 15                     got 15⌈¯4-¯4⋄15⌈0⋄15
+  ✓ ×¨1 5 8                      want 1 1 1                  got (×1)(×5)(×8)⋄(×1)(×5)(1)⋄(×1)(1)(1)⋄(1)(1)(1)⋄1 1 1
+  ✓ +\×\0 1                      want 0 0                    got +\0 0⋄0 0
+  ✓ 4↑⍨⌈\¯2                      want 0 4                    got 4↑⍨¯2⋄¯2↑4⋄0 4
+  ✗ +/9=7/9                      want 7                      got +/9=9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9
+  ✓ 4 4∘.=9                      want 0 0                    got 0 0
+  ✓ |8 13 6                      want 8 13 6                 got 8 13 6
+  ✓ 9↓1 5 5                      want ⍬                      got ⍬
+  ✓ 6 2 3∧5                      want 30 10 15               got 30 10 15
+  ✓ ,⍨3 1 6                      want 3 1 6 3 1 6            got 3 1 6,3 1 6⋄3 1 6 3 1 6
+  ✓ (⍳2)⌊⍳1                      want 1 1                    got (⍳2)⌊(,1)⋄1 2⌊(,1)⋄1 1
+  ✓ ∨/0 6 8                      want 2                      got 0∨6∨8⋄0∨2⋄2
+  ✗ ⌈/-1 12                      want ¯1                     got ⌈/¯1 ¯12⋄¯1⌈¯12⋄¯12
+  ✓ {≢¨1}⍳4                      want 1                      got {≢¨1}1 2 3 4⋄≢¨1⋄1
+
+canonical benchmark (never trained on): exact 43/46 (93.5%)
+  ✓ +/⍳10                        want 55                     got +/1 2 3 4 5 6 7 8 9 10⋄1+2+3+4+5+6+7+8+9+10⋄1+2+3+4+5+6+7+8+19⋄1+2+3+4+5+6+7+27⋄1+2+3+4+5+6+34⋄1+2+3+4+5+40⋄1+2+3+4+45⋄1+2+3+49⋄1+2+52⋄1+54⋄55
+  ✓ 2-⍨10                        want 8                      got 10-2⋄8
+  ✓ 2×3+4                        want 14                     got 2×7⋄14
+  ✓ 1+2×3                        want 7                      got 1+6⋄7
+  ✓ 10|17                        want 7                      got 7
+  ✓ ×/1 2 3 4                    want 24                     got 1×2×3×4⋄1×2×12⋄1×24⋄24
+  ✓ +\1 2 3 4                    want 1 3 6 10               got 1 3 6 10
+  ✓ (+/÷≢)2 4 6                  want 4                      got (+/2 4 6)÷≢2 4 6⋄(+/2 4 6)÷3⋄(2+4+6)÷3⋄(2+10)÷3⋄12÷3⋄4
+  ✓ 1 2∘.×1 2 3                  want 2 3⍴1 2 3 2 4 6        got 2 3⍴(1×1 2 3),2×1 2 3⋄2 3⍴(1×1 2 3),2 4 6⋄2 3⍴1 2 3,2 4 6⋄2 3⍴1 2 3 2 4 6
+  ✓ ⌈/3 1 4 1 5                  want 5                      got 3⌈1⌈4⌈1⌈5⋄3⌈1⌈4⌈5⋄3⌈1⌈5⋄3⌈5⋄5
+  ✓ ⌊/3 1 4 1 5                  want 1                      got 3⌊1⌊4⌊1⌊5⋄3⌊1⌊4⌊1⋄3⌊1⌊1⋄3⌊1⋄1
+  ✓ 1 2 3∊2 3 4                  want 0 1 1                  got 0 1 1
+  ✓ 1 2 3 4~2 4                  want 1 3                    got 1 3
+  ✗ 1 0 1/1 2 3                  want 1 3                    got 1 3 3
+  ✓ 3↑1 2 3 4 5                  want 1 2 3                  got 1 2 3
+  ✓ 2↓1 2 3 4 5                  want 3 4 5                  got 3 4 5
+  ✓ 2⌽1 2 3 4 5                  want 3 4 5 1 2              got 3 4 5 1 2
+  ✓ +/1 0 1 0 1                  want 3                      got 1+0+1+0+1⋄1+0+1+1⋄1+0+2⋄1+2⋄3
+  ✓ A←1 2 3⋄+/A                  want 6                      got +/1 2 3⋄1+2+3⋄1+5⋄6
+  ✓ (+/÷≢)1 2 3 4                want 2.5                    got (+/1 2 3 4)÷≢1 2 3 4⋄(+/1 2 3 4)÷4⋄(1+2+3+4)÷4⋄(1+2+7)÷4⋄(1+9)÷4⋄10÷4⋄2.5
+  ✓ 1 2 3+.×4 5 6                want 32                     got +/1 2 3×4 5 6⋄+/4 10 18⋄4+10+18⋄4+28⋄32
+  ✓ ⌽'hello'                     want 'olleh'                got 'olleh'
+  ✓ +/2 3⍴⍳6                     want 6 15                   got +/2 3⍴1 2 3 4 5 6⋄(+/1 2 3)(+/4 5 6)⋄(+/1 2 3)(4+5+6)⋄(+/1 2 3)(4+11)⋄(+/1 2 3)(15)⋄(1+2+3)(15)⋄(1+5)(15)⋄(6)(15)⋄6 15
+  ✓ +⌿2 3⍴⍳6                     want 5 7 9                  got +⌿2 3⍴1 2 3 4 5 6⋄1 2 3+4 5 6⋄5 7 9
+  ✓ ≢'hello'                     want 5                      got 5
+  ✓ ⌽1 2 3                       want 3 2 1                  got 3 2 1
+  ✓ 2 3⍴⍳6                       want 2 3⍴1 2 3 4 5 6        got 2 3⍴1 2 3 4 5 6
+  ✓ ⍋3 1 2                       want 2 3 1                  got 2 3 1
+  ✓ ⍒3 1 2                       want 1 3 2                  got 1 3 2
+  ✓ {⍵×⍵}4                       want 16                     got 4×4⋄16
+  ✓ {⍵+1}5                       want 6                      got 5+1⋄6
+  ✓ (2∘×)3                       want 6                      got 2×3⋄6
+  ✓ ⍴2 3⍴⍳6                      want 2 3                    got ⍴2 3⍴1 2 3 4 5 6⋄2 3
+  ✗ ⍉2 3⍴⍳6                      want 3 2⍴1 4 2 5 3 6        got ⍉2 3⍴1 2 3 4 5 6⋄3 2⍴1 3,2 5,3 6⋄3 2⍴1 3,2 5 3 6⋄3 2⍴1 3 2 5 3 6
+  ✓ -\1 2 3                      want 1 ¯1 2                 got 1 ¯1 2
+  ✓ 3 1 4⍳4                      want 3                      got 3
+  ✓ 2{⍺+⍵}3                      want 5                      got 2+3⋄5
+  ✓ (2×3)+4                      want 10                     got 6+4⋄10
+  ✓ ⊃⌽1 2 3                      want 3                      got ⊃3 2 1⋄3
+  ✓ 1 2 3=2                      want 0 1 0                  got 0 1 0
+  ✓ ∪1 1 2 3 2                   want 1 2 3                  got 1 2 3
+  ✓ {+/⍵}1 2 3                   want 6                      got +/1 2 3⋄1+2+3⋄1+5⋄6
+  ✓ ¯2↑1 2 3 4 5                 want 4 5                    got 4 5
+  ✗ ≢¨(1 2)(3 4 5)               want 2 3                    got ≢¨1 2 3 5⋄(≢1)(≢2)(≢3)(≢5)⋄(≢1)(≢2)(≢3)(1)⋄(≢1)(≢2)(1)(1)⋄(≢1)(1)(1)(1)⋄(1)(1)(1)(1)⋄1 1 1 1
+  ✓ 4∧6                          want 12                     got 12
+  ✓ 4∨6                          want 2                      got 2
+saved checkpoints/apl_trace_v4.pt

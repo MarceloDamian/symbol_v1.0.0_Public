@@ -1,0 +1,8 @@
+
+=== checkpoints/apl_trace_v15.pt
+
+=== checkpoints/apl_trace_v16.pt
+
+checkpoint                                canonical       hard    control      prims       bits
+checkpoints/apl_trace_v15.pt                 100.0%     100.0%      93.3%      81.2%      81.2%
+checkpoints/apl_trace_v16.pt                 100.0%      95.5%     100.0%      93.8%      93.8%

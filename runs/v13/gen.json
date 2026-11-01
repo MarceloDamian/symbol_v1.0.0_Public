@@ -1,0 +1,6 @@
+{
+ "rows": 210000,
+ "seed": 13,
+ "commit": null,
+ "note": "made before the repo existed: the generator code for this round was not saved; retrain from the saved data (bash scripts/restore.sh 13)"
+}
